@@ -1,0 +1,78 @@
+body{
+    background: #e7e7e7;
+}
+.flag{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.ukraine{
+    background: yellow;
+}
+.ukraine__top{
+    background: blue;
+    height: 50%;
+}
+
+.japan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.japan__circle{
+    background: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.czech{
+    background: red;
+    position: relative;
+}
+.czech__top{
+    background: white;
+    height: 50%;
+}
+.czech__left{
+    top: 0;
+    border-left: 120px solid #5201ff;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    position: absolute;
+}
+
+.iceland{
+    background: blue;
+    position: relative;
+}
+.iceland__vertical-line{
+    background: red;
+    width: 20px;
+    height: 100%;
+    left: 30%;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    position: absolute;
+}
+.iceland__vertical-line:after{
+    content: '';
+    width: 40px;
+    height: 20px;
+    background: red;
+    position: absolute;
+    left: -10px;
+    top: 90px;
+}
+.iceland__horizon-line{
+    background: red;
+    width: 100%;
+    height: 20px;
+    top: 80px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    position: absolute;
+}
+
